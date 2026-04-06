@@ -641,11 +641,10 @@
     <footer class="pb-6 pt-16 lg:pb-8 lg:pt-24 bg-white border-t border-slate-200 relative z-10">
         <div class="max-w-7xl mx-auto px-6">
             <div class="md:flex md:items-start md:justify-between">
-                <a href="/" class="flex items-center gap-x-3 group" aria-label="Doutor Feridas">
+                <a href="/" class="flex items-center justify-center md:justify-start gap-x-3 group" aria-label="Doutor Feridas">
                     <img src="https://i.imgur.com/jzFReaW.png" alt="Doutor Feridas" class="h-10 w-auto object-contain transition-transform group-hover:scale-105">
-                    <span class="font-display font-bold text-xl text-brand-dark tracking-tight">Franchising</span>
                 </a>
-                <ul class="flex list-none mt-6 md:mt-0 space-x-3 items-center">
+                <ul class="hidden md:flex list-none mt-6 md:mt-0 space-x-3 items-center">
                     <li>
                         <a href="https://op7.com.br" target="_blank" aria-label="OP7 Franchising"
                             class="inline-block transition-transform hover:-translate-y-0.5 active:scale-95 opacity-90 hover:opacity-100 drop-shadow-sm">
@@ -673,9 +672,15 @@
                     </ul>
                 </nav>
                 
-                <div class="mt-8 text-sm leading-6 text-slate-400 whitespace-nowrap lg:mt-0 lg:row-[1/3] lg:col-[1/4]">
-                    <div class="font-medium">© 2026 Doutor Feridas.</div>
-                    <div class="mt-1 text-xs">Desenvolvido por <span class="font-bold text-brand-dark">OP7 Franchising</span></div>
+                <div class="mt-8 lg:mt-0 lg:row-[1/3] lg:col-[1/4] flex items-center justify-between md:block">
+                    <div class="text-sm leading-6 text-slate-400 whitespace-nowrap">
+                        <div class="font-medium">© 2026 Doutor Feridas.</div>
+                        <div class="mt-1 text-xs">Desenvolvido por <span class="font-bold text-brand-dark">OP7 Franchising</span></div>
+                    </div>
+                    <a href="https://op7.com.br" target="_blank" aria-label="OP7 Franchising"
+                        class="md:hidden inline-block transition-transform hover:-translate-y-0.5 active:scale-95 opacity-90 hover:opacity-100 drop-shadow-sm shrink-0">
+                        <img src="https://pub-db8ed4fb33634589a6ce5fb07e85cb46.r2.dev/logo/op7/logo.svg" alt="OP7" class="h-10 w-auto object-contain">
+                    </a>
                 </div>
             </div>
             
